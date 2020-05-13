@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>bucketList-localstorage</title>
+  <title>bucketList-localS"torage</title>
   <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-    <h1>The BUCKET LIST</h1>
-    <form> 
-        <input type="text" class="userInput" placeholder="Type what to put in YOUR BUCKET LIST">
-        <button>add to the list</button>
-    </form>
+    <div id="container">
+        <h1 id="heading">The BUCKET LIST</h1>
+        <div id="addBar"> 
+            <input type="text" id="addList" placeholder="Type tasks to add in YOUR BUCKET LIST">
+            <button id="addButton">Add</button>
+        </div>
+        <ul id="theList"></ul>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="src/script.js"></script>
 </body>
