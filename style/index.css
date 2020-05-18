@@ -47,22 +47,22 @@ body {
 }
 
 #addList::-webkit-input-placeholder {
-  color: #666666;
+  color: #888888;
   font-size: 1rem;
 }
 
 #addList:-ms-input-placeholder {
-  color: #666666;
+  color: #888888;
   font-size: 1rem;
 }
 
 #addList::-ms-input-placeholder {
-  color: #666666;
+  color: #888888;
   font-size: 1rem;
 }
 
 #addList::placeholder {
-  color: #666666;
+  color: #888888;
   font-size: 1rem;
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 #addList:focus {
-  width: 80%;
+  width: 70%;
   background-color: #ffffff;
   font-size: 1.5rem;
 }
